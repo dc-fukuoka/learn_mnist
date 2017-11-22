@@ -3,7 +3,7 @@ learn_mnist - neural network learning with MNIST data by python.
 requirements: numpy  
   
 Basically, the code is almost the same as https://github.com/mnielsen/neural-networks-and-deep-learning , though there are several modifications.  
-Some modifications(except for my notes/comments):  
+Some modifications are below(except for my notes/comments):  
  * use the original MNIST data  
  * use python3  
  * replace np.dot() with np.outer() for a calculation of nabla_w in backward propagation, based on the algorithm  
