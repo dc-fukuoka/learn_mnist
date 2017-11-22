@@ -1,4 +1,4 @@
-learn_mnist - neural network learning with MNIST data by python. in progress.
+learn_mnist - neural network learning with MNIST data by python.
 ===
 requirements: numpy  
   
@@ -57,5 +57,3 @@ Epoch 28:  9522 / 10000: 95.22 %
 Epoch 29:  9507 / 10000: 95.07 %
 time[s]: 301.463009
 ~~~
-  
-Still accuracy rate is not so high, need to check the code.
