@@ -1,4 +1,4 @@
-learn_mnist - neural network learning with MNIST data by python.
+learn_mnist - neural network learning with MNIST data by python. in progress.
 ===
 requirements: numpy  
   
