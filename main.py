@@ -12,7 +12,7 @@ def main():
     # another example is sizes = (28*28, 40, 30, 10)
     sizes           = (28*28, 30, 10)
     epochs          = 30
-    mini_batch_size = 100
+    mini_batch_size = 10
     eta             = 3.0
     print("sizes:           ", end='')
     print(sizes)
