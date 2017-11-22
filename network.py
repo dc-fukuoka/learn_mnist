@@ -1,4 +1,3 @@
-import random
 import numpy as np
 
 def sigmoid(x):
@@ -42,7 +41,7 @@ class Network():
     # feed forward
     # return sigma(W*a+b)
     def fforward(self, a):
-        # calculate and update a = sigma(W*a+b) for each layer
+        # calculate a = sigma(W*a+b) for each layer
         for b, w in zip(self.biases, self.weights):
             a = sigmoid(np.dot(w, a) + b)
         return a
@@ -109,7 +108,7 @@ class Network():
             ntests = len(test_data)
         ndata = len(train_data)
         for e in range(epochs):
-            random.shuffle(train_data)
+            np.random.shuffle(train_data)
             mini_batches = [train_data[k:k+mini_batch_size] for k in range(0, ndata, mini_batch_size)]
             for mini_batch in mini_batches:
                 self.update_mini_batch(mini_batch, eta)
