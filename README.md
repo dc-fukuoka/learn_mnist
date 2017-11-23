@@ -10,8 +10,9 @@ Some modifications are below(except for my notes/comments):
   
 The purpose of this program is for study of python and to understand how neural network/deeplearning works.  
 
-how to test:  
+how to test:
 ====
+CPU was Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 20 cores.
 ~~~
 $ cd data/
 $ wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
