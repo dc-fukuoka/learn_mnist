@@ -42,11 +42,11 @@ def read_mnist():
         ncols          = data[3]
         test_images   = np.array(data[4:], dtype=np.float32).reshape((ndata, nrows*ncols))
 
-    # the original value is uint8 so 0 - 255, translate the value to 0.0 - 1.0
+    # the original value is uint8 so 0 - 255, so scale the value to 0.0 - 1.0
     train_images = [x/255.0 for x in train_images]
     test_images  = [x/255.0 for x in test_images]
         
-    # split 60,000 training data into two pieces, 50,000 data will be used for actal training,
+    # split 60,000 training data into two pieces, 50,000 data will be used for actual training,
     # and remaining 10,000 data will be used for validation
     train_images0 = train_images[0:50000]
     train_labels0 = train_labels[0:50000]
