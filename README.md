@@ -7,7 +7,7 @@ Some modifications are below(except for my notes/comments):
  * use the original MNIST data  
  * use python3  
  * use n dimesion array insead of (n, 1) dimension array for image data and Network.biases  
- * replace np.dot() with np.outer() for a calculation of nabla_w in backward propagation, based on the algorithm  
+ * use np.outer() instead of np.dot() for a calculation of nabla_w in backward propagation, based on the algorithm(this comes from the difference between n-dimensonal array and (n, 1)-dimensionnal array, but both are the same mathematically)  
   
 The purpose of this program is for study of python and to understand how neural network/deeplearning works.  
 
