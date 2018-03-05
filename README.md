@@ -15,6 +15,7 @@ how to test:
 ====
 CPU was Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 20 cores.
 ~~~
+$ mkdir data
 $ cd data/
 $ wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
 $ wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
