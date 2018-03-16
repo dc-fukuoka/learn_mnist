@@ -48,6 +48,7 @@ def read_mnist():
         
     # split 60,000 training data into two pieces, 50,000 data will be used for actual training,
     # and remaining 10,000 data will be used for validation
+    # note: currently validation data is not used, need to improve
     train_images0 = train_images[0:50000]
     train_labels0 = train_labels[0:50000]
     train_images1 = train_images[50000:60000]
